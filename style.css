@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    margin: 100px auto;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input,textarea,button{
+    display: block;
+    height: 40px;
+    font-size: 18px;
+    width: 100%;
+}
+button{
+    background-color: lightgreen;
+    cursor: pointer;
+    border: none;
+}
+textarea{height: 120px;}
